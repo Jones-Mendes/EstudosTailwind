@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../style/output.css" rel="stylesheet">
+    <title>Tailwind</title>
+</head>
+<body class="bg-slate-200">
+    <!--toda vida que for abrir, tem que fazer o comando  npm run dev -->
+    <h1 class=" text-center text-2xl font-bold text-rose-600 sm:text-4xl">Curso de Tailwind CSS</h1>
+   
+   <main class="w-full min-h-screen flex flex-col md:flex-row items-center justify-center mx-auto">
+        
+    <section class=" w-full flex-1 flex flex-col justify-center items-center p-4">
+
+            <div class="w-full max-w-x1 flex justify-center items-center flex-col gap-4">
+                <img 
+                src="./imagens/user.png" 
+                alt="Logo do usuario"
+                class="w-36 hover:scale-110 duration-300"
+                />
+
+                <h1 class="text-4xl font-bold mb-7">Login</h1>
+
+                <input 
+                    type="text"
+                    placeholder="Digite o seu email..."
+                    class="w-full p-2 rouded-lg outline-none bg-gray-50 focus:bg-white"
+                />
+
+
+                <input 
+                    type="password"
+                    placeholder="******************"
+                    class="w-full p-2 rouded-lg outline-none bg-gray-50 focus:bg-white"
+                />
+
+            </div>
+            
+
+        </section>
+
+    <section class=" hidden md:flex w-full flex-1 bg-blue-400">DIREITA</section>
+   </main>
+    
+    
+</body>
+</html>
